@@ -1,6 +1,6 @@
 const height = 800;
 const width = 600;
-const margin = {left: 200, right: 30, top: 30, bottom: 30};
+const margin = {left: 300, right: 30, top: 30, bottom: 30};
 
 const barHeight= 15;
 const gap = 5;
@@ -71,11 +71,11 @@ function plotBarChart(dataset) {
             //         .text(d => d.Name);
             svg.append("g")
             	.attr("class","xaxis-styling")
-            	.attr("transform","translate(201,29)")
+            	.attr("transform","translate(301,29)")
             	.call(xAxis);
             svg.append("g")
             	.attr("class","yaxis-styling hidden")
-            	.attr("transform","translate(201,29)")
+            	.attr("transform","translate(301,29)")
             	.call(yAxis);
         };
 
