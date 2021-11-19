@@ -1,0 +1,22 @@
+#tooltip {
+	position: absolute;
+	padding: 5px;
+	background: white;
+	border:  solid gray 1px;
+	z-index: 1;
+	height: 35px;
+	width: 100px;
+}
+
+#tooltip.hidden {
+	display: none;
+}
+
+g.tick text {
+    font-size: 14px;
+}
+
+g.hidden line,
+g.hidden path {
+    display: none;
+}
