@@ -1,4 +1,4 @@
-const height = 800;
+const height = 700;
 const width = 600;
 const margin = {left: 300, right: 30, top: 30, bottom: 30};
 
